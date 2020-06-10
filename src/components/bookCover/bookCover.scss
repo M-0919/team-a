@@ -1,0 +1,27 @@
+@import "../../styles/global.scss";
+
+.bookCover {
+  background-color: $cream;
+  display: flex;
+  padding: 3rem 2rem;
+  align-items: center;
+  &__left {
+    width: 40%;
+    &__content {
+      margin: 0 auto;
+      height: 400px;
+      width: 300px;
+      background-color: $floor;
+    }
+  }
+  &__right {
+    width: 60%;
+    &__title {
+      font-size: 3rem;
+      padding-bottom: 2rem;
+    }
+    &__content {
+      font-size: 1.4rem;
+    }
+  }
+}

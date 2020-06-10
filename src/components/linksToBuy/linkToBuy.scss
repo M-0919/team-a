@@ -1,0 +1,22 @@
+@import "../../styles/global.scss";
+
+.links {
+  text-align: center;
+  background-color: $dark;
+  color: $cream;
+  padding: 2rem;
+  &__text-box {
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+  &__list {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__button {
+    padding: 1rem 1.5rem;
+    background-color: $orange;
+    border-radius: 1rem;
+  }
+}

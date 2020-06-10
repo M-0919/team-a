@@ -1,0 +1,45 @@
+@import "../../styles/global.scss";
+
+.profile {
+  background-color: rgba(251, 251, 239, 0.5);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid $floor;
+  &__left {
+    color: #ca9d3c;
+    text-align: right;
+    width: 60%;
+    &__title {
+      font-size: 2rem;
+      padding-bottom: 2rem;
+    }
+    &__discription {
+      font-size: 1.2rem;
+      padding-bottom: 2rem;
+    }
+    &__address {
+      font-weight: bold;
+    }
+  }
+  &__right {
+    width: 40%;
+    padding: 3rem 0 3rem 0;
+    &__image {
+      background-color: #e5e5e5;
+      margin: 0 auto;
+      width: 300px;
+      height: 400px;
+    }
+    &__list {
+      padding: 2rem 0 2rem 0;
+      display: flex;
+      justify-content: space-around;
+      &__item {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 4rem;
+        background-color: $orange;
+      }
+    }
+  }
+}

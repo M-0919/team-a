@@ -1,0 +1,17 @@
+@import "../../styles/global.scss";
+
+.header {
+  text-align: left;
+  position: absolute;
+  top: 0;
+  background-color: $dark;
+  width: 100%;
+  font-size: 3rem;
+  color: $cream;
+  line-height: 5rem;
+  height: 5rem;
+  &__title {
+    font-size: 3rem;
+    color: inherit;
+  }
+}
