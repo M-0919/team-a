@@ -3,7 +3,7 @@ import React from "react"
 
 const Footer = () => (
   <footer className="footer">
-    © {new Date().getFullYear()}, Alex, Ruri, Taichi, Elen, Bianca
+    © {new Date().getFullYear()}, Alex, Ruri, Mayu, Taichi, Elen, Bianca
   </footer>
 )
 
