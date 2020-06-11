@@ -1,0 +1,31 @@
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  text-align: left;
+  position: absolute;
+  top: 0;
+  background-color: #253D66;
+  width: 100%;
+  font-size: 3rem;
+  color: #DCDCDB;
+  line-height: 5rem;
+  height: 5rem;
+}
+
+.header__title {
+  font-size: 3rem;
+  color: inherit;
+}
+/*# sourceMappingURL=header.css.map */

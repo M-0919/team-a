@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.excerpt {
+  background-color: rgba(33, 34, 48, 0.5);
+  color: #DCDCDB;
+  text-align: center;
+  padding: 2rem 3rem;
+}
+
+.excerpt__title {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.excerpt__content {
+  padding: 1rem;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  max-width: 800px;
+}
+/*# sourceMappingURL=excerptFromFacebook.css.map */

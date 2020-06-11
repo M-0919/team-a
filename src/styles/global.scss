@@ -1,9 +1,9 @@
 $font-family: "Montserrat", sans-serif;
-$orange: #F19553;
-$text: #DCDCDB;
-$dark: #253D66;
-$sofa: #B99954;
-$floor: #BFC6C4;
+$orange: #f19553;
+$text: #dcdcdb;
+$dark: #253d66;
+$sofa: #b99954;
+$floor: #bfc6c4;
 
 html {
   font-size: 62.5%;
@@ -12,6 +12,7 @@ html {
 
 body {
   width: 100%;
+  // background-image: url("../images/paper.png");
 }
 
 a {

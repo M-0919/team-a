@@ -1,22 +1,27 @@
 @import "../../styles/global.scss";
 
 .bookCover {
-  background-color: $text;
+  // background-color: $text;
   display: flex;
   padding: 3rem 2rem;
   align-items: center;
   &__left {
-    width: 40%;
+    width: 60%;
     &__content {
-      margin: 0 auto;
-      height: 400px;
-      width: 300px;
-      background-color: $floor;
+      // margin: 0 auto;
+      height: 550px;
+      width: 100%;
+      // background-color: $floor;
+      &__image {
+        margin-bottom: 0;
+        width: 90%;
+      }
     }
   }
   &__right {
-    width: 60%;
+    width: 40%;
     &__title {
+      left: 0;
       font-size: 3rem;
       padding-bottom: 2rem;
     }

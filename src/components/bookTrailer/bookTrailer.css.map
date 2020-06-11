@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACOA,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,wBAAwB;CACtC;;AAED,AAAA,IAAI,CAAC;EACH,KAAK,EAAE,IAAI;CACZ;;AAED,AAAA,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,OAAO;CACf;;ADjBD,AAAA,YAAY,CAAC;EACX,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,ECAV,OAAO;CDCd",
+    "sources": [
+        "bookTrailer.scss",
+        "../../styles/global.scss"
+    ],
+    "names": [],
+    "file": "bookTrailer.css"
+}

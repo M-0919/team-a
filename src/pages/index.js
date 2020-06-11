@@ -15,9 +15,9 @@ import Layout from "../components/layout"
 const IndexPage = () => (
   <Layout>
     {/* <SEO title="Home" /> */}
-    <BookTrailer />
-    <LinksToBuy />
     <BookCover />
+    <LinksToBuy />
+    <BookTrailer />
     <ExceptFromFacebook />
     <Profile />
     {/* <h1>Hi people</h1>
