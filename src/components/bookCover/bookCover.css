@@ -5,7 +5,6 @@ html {
 
 body {
   width: 100%;
-  background-image: url("../images/paper.png");
 }
 
 a {
@@ -21,33 +20,38 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 550px;
 }
 
 .bookCover__left {
   width: 60%;
+  margin-top: 3.5%;
+  margin-left: 5%;
 }
 
 .bookCover__left__content {
-  height: 550px;
-  width: 100%;
+  width: 90%;
+  position: relative;
 }
 
 .bookCover__left__content__image {
-  margin-bottom: 0;
+  position: bottom;
+  bottom: 0;
   width: 90%;
 }
 
 .bookCover__right {
   width: 40%;
+  margin-right: 7%;
 }
 
 .bookCover__right__title {
-  left: 0;
   font-size: 3rem;
   padding-bottom: 2rem;
 }
 
 .bookCover__right__content {
-  font-size: 1.4rem;
+  font-size: 2rem;
+  line-height: 3rem;
 }
 /*# sourceMappingURL=bookCover.css.map */

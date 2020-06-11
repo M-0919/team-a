@@ -5,28 +5,32 @@
   display: flex;
   padding: 3rem 2rem;
   align-items: center;
+  height: 550px;
   &__left {
     width: 60%;
+    margin-top: 3.5%;
+    margin-left: 5%;
     &__content {
-      // margin: 0 auto;
-      height: 550px;
-      width: 100%;
+      width: 90%;
+      position: relative;
       // background-color: $floor;
       &__image {
-        margin-bottom: 0;
+        position: bottom;
+        bottom: 0;
         width: 90%;
       }
     }
   }
   &__right {
     width: 40%;
+    margin-right: 7%;
     &__title {
-      left: 0;
       font-size: 3rem;
       padding-bottom: 2rem;
     }
     &__content {
-      font-size: 1.4rem;
+      font-size: 2rem;
+      line-height: 3rem;
     }
   }
 }

@@ -1,12 +1,23 @@
 @import "../../styles/global.scss";
 
 .links {
-  text-align: center;
-  background-color: $dark;
-  color: $text;
-  padding: 2rem;
-  &__text-box {
-    font-size: 1.5rem;
+  width: 100%;
+  // text-align: center;
+  height: 180px;
+  &__content {
+    padding: 2rem;
+    margin: auto 25rem;
+    // height: 80%;
+    text-align: center;
+    background-color: $dark;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.5);
+  }
+  &__text {
+    color: $text;
+    font-size: 2rem;
     padding: 2rem;
   }
   &__list {

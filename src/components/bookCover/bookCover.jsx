@@ -14,18 +14,21 @@ const BookCover = () => (
       </div>
     </div>
     <div className="bookCover__right">
-      <h2 className="bookCover__right__title">Book cover</h2>
+      {/* <h2 className="bookCover__right__title">Book cover</h2> */}
       <p className="bookCover__right__content">
-        SHAKEN, NOT STIRRED: Living with Parkinson’s Disease is the story of a
-        reluctant hero navigating the trauma of a life-altering diag- nosis.
-        After going through a long-term, debilitating stage of grief, Linton
-        emerges to find life worth living and enjoying again. Read how simple
-        changes Linton made to his daily life have improved his physical and
-        mental health, his happiness, his life, and the lives of his family
-        members, who stood bravely by him as he waged his battle. Despite the
+        <span style={{ fontWeight: 700 }}>
+          SHAKEN, NOT STIRRED: Living with Parkinson’s Disease
+        </span>{" "}
+        is the story of a reluctant hero navigating the trauma of a
+        life-altering diag- nosis. After going through a long-term, debilitating
+        stage of grief, Linton emerges to find life worth living and enjoying
+        again.
+        {/* Read how simple changes Linton made to his daily life have improved his
+        physical and mental health, his happiness, his life, and the lives of
+        his family members, who stood bravely by him as he waged his battle. Despite the
         seriousness of the subject, Linton shares inspir- ing stories and
         important information about Parkinson’s Disease in a surprisingly
-        entertaining and engaging manner.
+        entertaining and engaging manner. */}
       </p>
     </div>
   </div>
