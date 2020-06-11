@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `landing page`,
-    description: `This is a landing page for Larry Linton's company`,
+    title: `Shaken, not stirred`,
+    description: `This is a landing page for Larry Linton's book`,
     author: `CICCC`,
   },
   plugins: [
