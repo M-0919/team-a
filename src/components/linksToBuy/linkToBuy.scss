@@ -3,7 +3,7 @@
 .links {
   width: 100%;
   // text-align: center;
-  height: 180px;
+  height: 200px;
   &__content {
     padding: 2rem;
     margin: auto 25rem;
@@ -17,22 +17,38 @@
   }
   &__text {
     color: $text;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
     padding: 2rem;
   }
   &__list {
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     display: flex;
     justify-content: space-around;
-  }
-  &__button {
-    padding: 1rem 1.5rem;
-    background-color: $orange;
-    border-radius: 1rem;
+
+    &__button {
+      // width: 5%;
+      padding: 1.5rem;
+      background-color: $orange;
+      border-radius: 1rem;
+      color: white;
+      font-weight: 600;
+      font-size: 1.5rem;
+      box-shadow: 0px 5px rgb(241, 100, 83);
+      transition: transform 250ms;
+    }
+
+    &__button:hover {
+      background-color: rgb(241, 100, 83);
+      box-shadow: 0px 1px rgb(241, 100, 83);
+      transform: translateZ(5px);
+    }
   }
 }
 
 .button__icon {
-  width: 40px;
-  height: 40px;
+  max-height: 3rem;
+  width: auto;
+  padding-right: 1rem;
 }

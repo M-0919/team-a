@@ -6,10 +6,10 @@ const Header = () => (
   <header className="header">
     <div className="header__nav">
       <Link className="header__nav__link" to="/">
-        LINK
+        HOME
       </Link>
       <Link className="header__nav__link" to="/">
-        HOME
+        LINK
       </Link>
       <Link className="header__nav__link" to="/">
         LINK
