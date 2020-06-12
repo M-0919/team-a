@@ -68,3 +68,55 @@
     }
   }
 }
+
+@media only screen and (max-width: 640px) {
+  .profile {
+    flex-direction: column;
+    // justify-content: space-around;
+    // width: 100%;
+    height: auto;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+
+    &__left {
+      width: 90%;
+      padding: unset;
+      margin: 0 auto;
+
+      &__text {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        text-align: center;
+        padding-bottom: 3rem;
+      }
+
+      &__name {
+        padding: unset;
+        margin: 0 15%;
+        max-width: 70%;
+      }
+
+      &__address {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        text-align: center;
+        padding-bottom: 3rem;
+      }
+    }
+
+    &__right {
+      width: 75%;
+      margin: 0 auto;
+      padding: unset;
+
+      &__image {
+        width: 95%;
+      }
+
+      &__list {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+      }
+    }
+  }
+}

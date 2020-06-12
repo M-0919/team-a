@@ -97,4 +97,50 @@ a {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
+
+@media only screen and (max-width: 640px) {
+  .profile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+  }
+  .profile__left {
+    width: 90%;
+    padding: unset;
+    margin: 0 auto;
+  }
+  .profile__left__text {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .profile__left__name {
+    padding: unset;
+    margin: 0 15%;
+    max-width: 70%;
+  }
+  .profile__left__address {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .profile__right {
+    width: 75%;
+    margin: 0 auto;
+    padding: unset;
+  }
+  .profile__right__image {
+    width: 95%;
+  }
+  .profile__right__list {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+}
 /*# sourceMappingURL=profile.css.map */

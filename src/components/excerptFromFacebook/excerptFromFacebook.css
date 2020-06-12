@@ -102,40 +102,38 @@ a {
   .excerpt .card {
     padding: 2rem;
     max-width: 85%;
-    max-height: 600px;
-    margin: 0 auto;
+    max-height: 800px;
+    margin-bottom: 3rem;
   }
   .excerpt .card__title {
     padding-bottom: 1rem;
-    margin: 0 auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
   .excerpt .card__title__img {
-    max-height: auto;
-    max-width: 10rem;
+    max-height: 15rem;
+    width: 10rem;
+    margin: 0 auto;
   }
   .excerpt .card__title__img2 {
-    max-height: auto;
-    max-width: 5rem;
-    margin-top: 3rem;
-    margin-left: -1rem;
+    max-height: 6rem;
+    width: 4rem;
+    margin-top: -3rem;
+    margin-left: 13rem;
+    padding-bottom: 1rem;
   }
   .excerpt .card__title__txt {
-    font-size: 2rem;
+    font-size: 1.75rem;
     line-height: 2.25rem;
-    font-weight: 700;
-    text-align: left;
-    margin-left: 2rem;
+    text-align: center;
+    margin: 0 auto;
   }
   .excerpt .card__content {
-    padding: 1rem;
-    margin: 0 auto;
-    font-size: 1.5rem;
-    line-height: 2.25rem;
-    text-align: left;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    text-align: center;
   }
   .excerpt .card__link {
     padding-left: 1rem;
