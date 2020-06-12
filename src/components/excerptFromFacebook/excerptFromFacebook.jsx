@@ -13,6 +13,7 @@ const excerptFromFacebook = () => (
           className="card__title__txt"
           href="https://www.facebook.com/lintonwellness/"
           target="_blank"
+          rel="noreferrer"
         >
           Shaken, not Stirred: Living With Parkinson's Disease
         </a>
@@ -36,6 +37,7 @@ const excerptFromFacebook = () => (
         <a
           className="card__link"
           target="_blank"
+          rel="noreferrer"
           href="https://www.facebook.com/lintonwellness/posts/158786448988160"
         >
           Read more
@@ -50,6 +52,7 @@ const excerptFromFacebook = () => (
           className="card__title__txt"
           href="https://www.facebook.com/lintonwellness/"
           target="_blank"
+          rel="noreferrer"
         >
           Shaken, not Stirred: Living With Parkinson's Disease
         </a>
@@ -71,6 +74,7 @@ const excerptFromFacebook = () => (
         <a
           className="card__link"
           target="_blank"
+          rel="noreferrer"
           href="https://www.facebook.com/lintonwellness/posts/150212259845579"
         >
           Read more
