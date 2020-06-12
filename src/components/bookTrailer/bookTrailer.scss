@@ -2,30 +2,32 @@
 
 .bookTrailer {
   width: 100vw;
-  height: 490px;
-  // background-color: $floor;
+  //height: 490px;
+  margin: 0 auto 2em;
 
   .trailer {
     display: block;
     width: fit-content;
     height: fit-content;
     margin: auto;
-    // padding-top: 200px;
     margin-top: 75px;
   }
-}
 
-@media only screen and (max-width: 640px) {
-  .bookTrailer {
-    // max-width: 90%;
-    // height: auto;
-
-    .trailer {
-      // display: block;
-      max-width: 90%;
-      height: auto;
-      // padding-top: 200px;
-      margin-top: 5rem;
-    }
+  img {
+    max-width: 100%;
   }
 }
+
+// @media only screen and (max-width: 640px) {
+//   .bookTrailer {
+//     // max-width: 90%;
+//     // height: auto;
+
+//     .trailer {
+//       // display: block;
+//       max-width: 90%;
+//       height: auto;
+//       margin-top: 5rem;
+//     }
+//   }
+//}

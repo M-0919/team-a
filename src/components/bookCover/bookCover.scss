@@ -16,10 +16,12 @@
     &__content {
       width: 90%;
       position: relative;
+      margin: 0 auto;
       &__image {
         position: bottom;
         bottom: 0;
         width: 100%;
+        max-width: 570px;
       }
     }
   }

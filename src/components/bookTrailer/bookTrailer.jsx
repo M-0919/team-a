@@ -1,10 +1,11 @@
 import React from "react"
 import "./bookTrailer.scss"
+import youtube from "../../images/youtube_placeholder.png"
 
 const BookTrailer = () => (
   <div className="bookTrailer">
     <div className="trailer">
-      <iframe
+      {/* <iframe
         title="videoPlaceholder"
         width="720"
         height="405"
@@ -12,7 +13,8 @@ const BookTrailer = () => (
         frameBorder="0"
         allow="autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-      ></iframe>
+      ></iframe> */}
+      <img alt="" src={youtube} />
     </div>
   </div>
 )
