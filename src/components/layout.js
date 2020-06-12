@@ -11,7 +11,7 @@ import "../styles/global.scss"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import SEO from "../components/seo"
-
+import BackgroundImage from "gatsby-background-image"
 import Header from "./header/header"
 import Footer from "./footer/footer"
 
@@ -23,17 +23,31 @@ const Layout = ({ children }) => {
           title
         }
       }
+      background: file(relativePath: { eq: "paper.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 2000, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
+
+  console.log(data)
 
   return (
     <>
       <SEO title="home" />
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div>
-        <main>{children}</main>
-        <Footer />
-      </div>
+      <BackgroundImage
+        fluid={data.background.childImageSharp.fluid}
+        className="background-image"
+      >
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <div>
+          <main>{children}</main>
+          <Footer />
+        </div>
+      </BackgroundImage>
     </>
   )
 }
