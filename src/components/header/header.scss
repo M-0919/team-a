@@ -1,7 +1,7 @@
 @import "../../styles/global.scss";
 
 .header {
-  text-align: left;
+  text-align: right;
   position: absolute;
   top: 0;
   background-color: $dark;
@@ -11,6 +11,7 @@
   line-height: 5rem;
   height: 5rem;
   &__title {
+    margin-right: 1em;
     font-size: 3rem;
     color: inherit;
   }

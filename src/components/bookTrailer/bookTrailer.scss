@@ -4,4 +4,12 @@
   width: 100vw;
   height: 100vh;
   background-color: $floor;
+  
+  .trailer {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding-top: 200px;
+  }
 }

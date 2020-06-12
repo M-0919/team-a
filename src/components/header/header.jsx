@@ -5,7 +5,7 @@ import "./header.scss"
 const Header = () => (
   <header className="header">
     <h1 className="header__title">
-      <Link to="/">landing page</Link>
+      <Link to="/">Shaken, not stirred</Link>
     </h1>
   </header>
 )
