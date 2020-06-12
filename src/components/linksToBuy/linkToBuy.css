@@ -79,4 +79,41 @@ a {
   width: auto;
   padding-right: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .links {
+    padding-top: 3rem;
+    width: 100%;
+    height: auto;
+  }
+  .links__content {
+    width: 70%;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .links__text {
+    font-size: 1.75rem;
+    padding: 1rem;
+  }
+  .links__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 18rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  .links__list__button {
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  .button__icon {
+    max-height: 1.5rem;
+    padding-right: 0.5rem;
+  }
+}
 /*# sourceMappingURL=linkToBuy.css.map */

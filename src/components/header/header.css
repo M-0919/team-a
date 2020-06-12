@@ -67,4 +67,24 @@ a {
   -webkit-transform: translateY(5px);
           transform: translateY(5px);
 }
+
+@media only screen and (max-width: 600px) {
+  .header {
+    height: 7rem;
+    text-align: center;
+  }
+  .header__nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header__nav__link {
+    width: 7rem;
+    height: auto;
+    padding: 0.75rem;
+    font-size: 1.15rem;
+    margin-right: 0;
+  }
+}
 /*# sourceMappingURL=header.css.map */

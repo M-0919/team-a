@@ -89,4 +89,58 @@ a {
   font-size: 1.5rem;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 640px) {
+  .excerpt {
+    text-align: center;
+    padding: 2rem 5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .excerpt .card {
+    padding: 2rem;
+    max-width: 85%;
+    max-height: 600px;
+    margin: 0 auto;
+  }
+  .excerpt .card__title {
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .excerpt .card__title__img {
+    max-height: auto;
+    max-width: 10rem;
+  }
+  .excerpt .card__title__img2 {
+    max-height: auto;
+    max-width: 5rem;
+    margin-top: 3rem;
+    margin-left: -1rem;
+  }
+  .excerpt .card__title__txt {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 2rem;
+  }
+  .excerpt .card__content {
+    padding: 1rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    text-align: left;
+  }
+  .excerpt .card__link {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
 /*# sourceMappingURL=excerptFromFacebook.css.map */

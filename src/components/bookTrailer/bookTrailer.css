@@ -35,4 +35,12 @@ a {
   margin: auto;
   margin-top: 75px;
 }
+
+@media only screen and (max-width: 640px) {
+  .bookTrailer .trailer {
+    max-width: 90%;
+    height: auto;
+    margin-top: 5rem;
+  }
+}
 /*# sourceMappingURL=bookTrailer.css.map */
