@@ -12,62 +12,89 @@ a {
   color: inherit;
 }
 
+.background-image {
+  width: 100%;
+  background-size: contain;
+  background-repeat: repeat;
+  position: absolute;
+}
+
 .profile {
-  background-color: rgba(251, 251, 239, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-bottom: 1px solid #bfc6c4;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 490px;
+  padding: 0 17.5rem;
+  margin-top: 10rem;
+  color: #253d66;
 }
 
 .profile__left {
-  color: #ca9d3c;
+  width: 65%;
+  padding-right: 4rem;
   text-align: right;
-  width: 60%;
 }
 
-.profile__left__title {
+.profile__left__text {
   font-size: 2rem;
+  line-height: 2.75rem;
+  text-align: right;
   padding-bottom: 2rem;
+  padding-top: 3rem;
 }
 
-.profile__left__discription {
-  font-size: 1.2rem;
-  padding-bottom: 2rem;
+.profile__left__name {
+  padding-top: 5rem;
+  padding-left: 1rem;
+  max-width: 60%;
 }
 
 .profile__left__address {
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2.65rem;
+  text-align: right;
 }
 
 .profile__right {
-  width: 40%;
-  padding: 3rem 0 3rem 0;
+  width: 35%;
+  padding-left: 3rem;
 }
 
 .profile__right__image {
-  background-color: #e5e5e5;
-  margin: 0 auto;
-  width: 300px;
-  height: 400px;
+  width: 95%;
+  border: solid 7.5px white;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .profile__right__list {
-  padding: 2rem 0 2rem 0;
+  width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding-top: 3rem;
 }
 
 .profile__right__list__item {
-  width: 4rem;
-  height: 4rem;
-  border-radius: 4rem;
-  background-color: #f19553;
+  max-width: 3rem;
+  height: auto;
+  -webkit-transition: -webkit-transform 250ms;
+  transition: -webkit-transform 250ms;
+  transition: transform 250ms;
+  transition: transform 250ms, -webkit-transform 250ms;
+}
+
+.profile__right__list__item:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 /*# sourceMappingURL=profile.css.map */
