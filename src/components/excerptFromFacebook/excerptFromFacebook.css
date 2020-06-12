@@ -13,21 +13,45 @@ a {
 }
 
 .excerpt {
-  background-color: rgba(33, 34, 48, 0.5);
-  color: #dcdcdb;
   text-align: center;
-  padding: 2rem 3rem;
+  padding: 5rem 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.excerpt__title {
-  padding: 1rem;
+.excerpt .card {
+  padding: 4rem;
+  max-width: 35%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.excerpt .card__title {
+  padding-bottom: 1.5rem;
   font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
 }
 
-.excerpt__content {
+.excerpt .card__content {
   padding: 1rem;
   margin: 0 auto;
-  font-size: 1.4rem;
-  max-width: 800px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.excerpt .card__link {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 /*# sourceMappingURL=excerptFromFacebook.css.map */

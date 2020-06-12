@@ -20,7 +20,7 @@ const BookCover = () => (
           SHAKEN, NOT STIRRED: Living with Parkinson’s Disease
         </span>{" "}
         is the story of a reluctant hero navigating the trauma of a
-        life-altering diag- nosis. After going through a long-term, debilitating
+        life-altering diagnosis. After going through a long-term, debilitating
         stage of grief, Linton emerges to find life worth living and enjoying
         again.
         {/* Read how simple changes Linton made to his daily life have improved his
