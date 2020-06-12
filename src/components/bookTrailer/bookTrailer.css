@@ -12,9 +12,16 @@ a {
   color: inherit;
 }
 
+.background-image {
+  width: 100%;
+  background-size: contain;
+  background-repeat: repeat;
+  position: absolute;
+}
+
 .bookTrailer {
   width: 100vw;
-  height: 500px;
+  height: 490px;
 }
 
 .bookTrailer .trailer {
@@ -26,6 +33,6 @@ a {
   height: -moz-fit-content;
   height: fit-content;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 75px;
 }
 /*# sourceMappingURL=bookTrailer.css.map */

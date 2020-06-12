@@ -1,18 +1,32 @@
 @import "../../styles/global.scss";
 
 .header {
-  text-align: right;
-  position: absolute;
+  position: sticky;
   top: 0;
-  background-color: $dark;
+  // background-color: rgba(37, 61, 102, 0.1);
+  background-color: rgba(185, 153, 84, 0.25);
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
   width: 100%;
-  font-size: 3rem;
-  color: $text;
-  line-height: 5rem;
   height: 5rem;
-  &__title {
-    margin-right: 1em;
-    font-size: 3rem;
-    color: inherit;
+  z-index: 999;
+  // font-size: 3rem;
+  // color: $text;
+  // line-height: 5rem;
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+
+    &__link {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: $dark;
+      padding-top: 1.75rem;
+    }
   }
 }

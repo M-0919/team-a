@@ -4,9 +4,17 @@ import "./header.scss"
 
 const Header = () => (
   <header className="header">
-    <h1 className="header__title">
-      <Link to="/">Shaken, not stirred</Link>
-    </h1>
+    <div className="header__nav">
+      <Link className="header__nav__link" to="/">
+        LINK
+      </Link>
+      <Link className="header__nav__link" to="/">
+        HOME
+      </Link>
+      <Link className="header__nav__link" to="/">
+        LINK
+      </Link>
+    </div>
   </header>
 )
 

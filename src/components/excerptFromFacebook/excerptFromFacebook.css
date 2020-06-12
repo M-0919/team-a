@@ -15,7 +15,8 @@ a {
 .background-image {
   width: 100%;
   background-size: contain;
-  background-repeat: repeat, no-repeat, repeat;
+  background-repeat: repeat;
+  position: absolute;
 }
 
 .excerpt {
@@ -63,7 +64,7 @@ a {
 .excerpt .card__title__img2 {
   max-height: 2rem;
   width: auto;
-  margin-top: 2.25rem;
+  margin-top: 3rem;
   margin-left: -1rem;
 }
 
