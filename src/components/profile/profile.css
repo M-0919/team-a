@@ -20,7 +20,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #BFC6C4;
+  border-bottom: 1px solid #bfc6c4;
 }
 
 .profile__left {
@@ -68,6 +68,6 @@ a {
   width: 4rem;
   height: 4rem;
   border-radius: 4rem;
-  background-color: #F19553;
+  background-color: #f19553;
 }
 /*# sourceMappingURL=profile.css.map */

@@ -14,7 +14,18 @@ a {
 
 .bookTrailer {
   width: 100vw;
-  height: 100vh;
-  background-color: #BFC6C4;
+  height: 500px;
+}
+
+.bookTrailer .trailer {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=bookTrailer.css.map */

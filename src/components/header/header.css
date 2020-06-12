@@ -13,18 +13,19 @@ a {
 }
 
 .header {
-  text-align: left;
+  text-align: right;
   position: absolute;
   top: 0;
-  background-color: #253D66;
+  background-color: #253d66;
   width: 100%;
   font-size: 3rem;
-  color: #DCDCDB;
+  color: #dcdcdb;
   line-height: 5rem;
   height: 5rem;
 }
 
 .header__title {
+  margin-right: 1em;
   font-size: 3rem;
   color: inherit;
 }
