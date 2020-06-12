@@ -12,6 +12,12 @@ a {
   color: inherit;
 }
 
+.background-image {
+  width: 100%;
+  background-size: contain;
+  background-repeat: repeat, no-repeat, repeat;
+}
+
 .excerpt {
   text-align: center;
   padding: 5rem 10rem;
@@ -27,26 +33,54 @@ a {
 }
 
 .excerpt .card {
+  background-color: rgba(185, 153, 84, 0.15);
   padding: 4rem;
   max-width: 35%;
+  max-height: 450px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .excerpt .card__title {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.excerpt .card__title__img {
+  max-height: 5rem;
+  width: auto;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.excerpt .card__title__img2 {
+  max-height: 2rem;
+  width: auto;
+  margin-top: 2.25rem;
+  margin-left: -1rem;
+}
+
+.excerpt .card__title__txt {
   font-size: 2rem;
+  line-height: 2.25rem;
   font-weight: 700;
   text-align: left;
+  margin-left: 2rem;
 }
 
 .excerpt .card__content {
   padding: 1rem;
   margin: 0 auto;
   font-size: 1.5rem;
-  line-height: 2rem;
-  text-align: justify;
+  line-height: 2.25rem;
+  text-align: left;
 }
 
 .excerpt .card__link {

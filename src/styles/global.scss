@@ -23,5 +23,6 @@ a {
 .background-image {
   width: 100%;
   background-size: contain;
-  background-repeat: repeat, no-repeat, repeat;
+  background-repeat: repeat;
+  position: absolute;
 }

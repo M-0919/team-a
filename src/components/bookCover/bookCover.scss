@@ -3,7 +3,7 @@
 .bookCover {
   // background-color: $text;
   display: flex;
-  padding: 3rem 2rem;
+  padding: 3rem 5rem;
   align-items: center;
   height: 550px;
   &__left {
@@ -17,7 +17,7 @@
       &__image {
         position: bottom;
         bottom: 0;
-        width: 90%;
+        width: 100%;
       }
     }
   }
